@@ -1,0 +1,22 @@
+{
+    "name": "serenity-cms/modules",
+    "description": "Serenity CMS - Modules Package",
+    "keywords": ["serenity", "cms", "modules"],
+    "license": "MIT",
+    "authors": [
+		{
+			"name": "Matej Vitaz",
+			"email": "mspiderv@gmail.com"
+		}
+	],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*",
+        "serenity-cms/modules-contracts": "5.3.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Serenity\\Modules\\": ""
+        }
+    }
+}
